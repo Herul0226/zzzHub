@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Build - ZZZ Info Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .build-container { padding: 8rem 5% 5rem; }
+        .build-section { margin-bottom: 5rem; display: flex; gap: 4rem; align-items: flex-start; background: rgba(26, 26, 26, 0.8); padding: 3rem; border-left: 10px solid var(--primary-color); }
+        .build-image { flex: 1; text-align: center; }
+        .build-image img { width: 100%; max-width: 400px; filter: drop-shadow(0 0 20px var(--primary-color)); }
+        .build-details { flex: 2; }
+        .build-details h2 { font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem; font-style: italic; }
+        .build-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+        .build-item { background: #252525; padding: 1.5rem; border: 1px solid #444; }
+        .build-item h4 { color: var(--primary-color); margin-bottom: 0.5rem; text-transform: uppercase; }
+        .tag { display: inline-block; padding: 0.2rem 0.8rem; background: var(--accent-color); color: white; font-size: 0.8rem; font-weight: bold; margin-bottom: 1rem; }
+        @media (max-width: 1024px) { .build-section { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/images/logo.png" alt="ZZZ Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="characters.html" class="active">Rekomendasi Build</a></li>
+                <li><a href="teams.html">Rekomendasi Tim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="build-container">
+        <!-- Ellen Joe Build -->
+        <div class="build-section">
+            <div class="build-image">
+                <img src="assets/images/ellen_joe.png" alt="Ellen Joe">
+            </div>
+            <div class="build-details">
+                <span class="tag">S-RANK | ATTACK | ICE</span>
+                <h2>ELLEN JOE</h2>
+                <p>Ellen adalah karakter DPS utama dengan elemen Ice yang sangat lincah. Fokus pada serangan kritikal dan bonus damage Ice.</p>
+                
+                <div class="build-grid">
+                    <div class="build-item">
+                        <h4>Best W-Engine</h4>
+                        <p><strong>Deep Sea Visitor (Signature)</strong></p>
+                        <p>Alternatif: Cannon Rotor, Starlight Engine.</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Drive Discs</h4>
+                        <p><strong>4x Polar Metal + 2x Woodpecker Electro</strong></p>
+                        <p>Main Stats: Crit Rate/DMG, Ice DMG, ATK%.</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Skill Priority</h4>
+                        <p>Basic Attack > Special > Chain Attack > Dodge</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Bangboo</h4>
+                        <p>Sharkboo (Best) / Penguinboo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zhu Yuan Build -->
+        <div class="build-section">
+            <div class="build-image">
+                <img src="assets/images/zhu_yuan_portrait.png" alt="Zhu Yuan">
+            </div>
+            <div class="build-details">
+                <span class="tag">S-RANK | ATTACK | ETHER</span>
+                <h2>ZHU YUAN</h2>
+                <p>Zhu Yuan memberikan damage burst yang sangat besar dalam waktu singkat, terutama saat musuh dalam kondisi Stun.</p>
+                
+                <div class="build-grid">
+                    <div class="build-item">
+                        <h4>Best W-Engine</h4>
+                        <p><strong>Riot Suppressor VI (Signature)</strong></p>
+                        <p>Alternatif: The Brimstone, Starlight Engine.</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Drive Discs</h4>
+                        <p><strong>4x Chaotic Metal + 2x Woodpecker Electro</strong></p>
+                        <p>Main Stats: Crit Rate/DMG, Ether DMG, ATK%.</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Skill Priority</h4>
+                        <p>Special > Basic Attack > Chain Attack > Core</p>
+                    </div>
+                    <div class="build-item">
+                        <h4>Bangboo</h4>
+                        <p>Resonaboo (Best) / Devilboo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="assets/images/logo.png" alt="ZZZ Logo">
+        </div>
+        <p>&copy; 2026 Zenless Zone Zero Info Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
